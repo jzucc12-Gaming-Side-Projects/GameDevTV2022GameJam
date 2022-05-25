@@ -537,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1298288851209752901, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnDelay
-      value: 2
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 1298288851209752901, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVelocity.y
@@ -553,11 +553,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328159543638, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnDelay
-      value: 4.25
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328159543638, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVariance
-      value: 0.2
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818677328159543638, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
+      propertyPath: spawnVelocity.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328159543638, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVelocity.y
@@ -573,15 +577,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328386103174, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnDelay
-      value: 4.25
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328386103174, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVariance
-      value: 0.2
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818677328386103174, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
+      propertyPath: spawnVelocity.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328386103174, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVelocity.y
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818677328386103174, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
+      propertyPath: velocityVariance.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328809578843, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: baseScale
@@ -589,7 +601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328809578843, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnDelay
-      value: 2
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 6818677328809578843, guid: d05a77d66699b4e4ebfb7552fc5f0030, type: 3}
       propertyPath: spawnVelocity.y
@@ -651,6 +663,14 @@ PrefabInstance:
     - target: {fileID: 2159035736408569815, guid: 5394f1ee840459d41891607a17585550, type: 3}
       propertyPath: m_Name
       value: Walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159035736929696680, guid: 5394f1ee840459d41891607a17585550, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362421391755700397, guid: 5394f1ee840459d41891607a17585550, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5394f1ee840459d41891607a17585550, type: 3}
@@ -832,7 +852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5512075420565765603, guid: fab1630b71eaadd42872709a2282828a, type: 3}
       propertyPath: baseScale
-      value: 0.6
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512075420565765603, guid: fab1630b71eaadd42872709a2282828a, type: 3}
+      propertyPath: scaleVariance
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5512075422287343090, guid: fab1630b71eaadd42872709a2282828a, type: 3}
       propertyPath: stopTime
@@ -855,6 +879,10 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5512075422482204578, guid: fab1630b71eaadd42872709a2282828a, type: 3}
+      propertyPath: baseScale
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512075422482204578, guid: fab1630b71eaadd42872709a2282828a, type: 3}
       propertyPath: startTime
       value: 74
       objectReference: {fileID: 0}
@@ -864,7 +892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5512075422482204578, guid: fab1630b71eaadd42872709a2282828a, type: 3}
       propertyPath: scaleVariance
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5512075422482204578, guid: fab1630b71eaadd42872709a2282828a, type: 3}
       propertyPath: spawnVariance
